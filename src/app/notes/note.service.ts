@@ -21,7 +21,7 @@ export class NoteService{
 
     getNotesNum() : Observable<number>{
         let subj = new Subject<number>();
-        setTimeout(() => {subj.next(2); subj.complete();}, 0);
+        setTimeout(() => {subj.next(notes.length); subj.complete();}, 0);
 
         return subj;
         //return this.http.get<number>(this.notesNumUrl)
