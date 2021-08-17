@@ -18,9 +18,4 @@ export class NotesSheetComponent implements OnInit {
         //    notes => {this.notes = notes;}
         //);
     }
-
-    onResize(event:any) {
-        event.target.innerWidth;
-        console.log(innerWidth);
-    }
 }

@@ -18,4 +18,9 @@ export class NotesListComponent implements OnInit{
             }
         );
     }
+
+    onResize(event:any) {
+        event.target.innerWidth;
+        console.log(innerWidth);
+    }
 }
