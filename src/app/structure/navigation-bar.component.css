@@ -19,3 +19,8 @@
     display: flex;
     padding: 0;
 }
+
+:host {
+    display: block;
+    background-color: #c6c6c7;
+}

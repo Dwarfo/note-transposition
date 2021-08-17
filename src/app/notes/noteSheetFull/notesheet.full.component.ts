@@ -30,6 +30,7 @@ export class FullNotesheetComponent implements OnInit{
         );
     }
 
+    //TODO
     //dynamically rerender lists of notes (changeable chunk value)
     //add transponisation (two buttons, and Eb and Bb)
 }
