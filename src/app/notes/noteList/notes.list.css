@@ -1,0 +1,9 @@
+.router-link {
+    font-weight: 400; 
+    color: blue;
+}
+
+.router-link:hover{
+    cursor: pointer;
+    background-color: aqua;
+}

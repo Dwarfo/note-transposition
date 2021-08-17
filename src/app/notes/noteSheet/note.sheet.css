@@ -28,15 +28,28 @@
 
 .grow{
     flex-grow: 1;
+    white-space: nowrap;
 }
 
 .note_symbol{
     font-size: 90px;
     position: relative;
-    bottom: 75px;
+    bottom: 3px;
 }
 
 .notes_array{
     position: absolute;
-    left: 150px;
+    width: 100%;
+}
+
+:host{
+    min-width: 1200px;
+    display: block;
+}
+
+.key_img {
+    width: 83px;
+    position: absolute;
+    top: 86px;
+    left: 15px;
 }

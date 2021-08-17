@@ -1,9 +1,9 @@
 <div class="mrg_t_20 align_horizontal">
-    <div class="note_key">𝄞</div>
     <div class="grow">
-        <div class="notes_array">
-            <span class="note_symbol" >&#9833;</span>
-            <span class="note_symbol" >&#9833;</span>
+        <!--<div *ngIf="isFirstLine" class="note_key">𝄞</div>-->
+        <img class="key_img" *ngIf="isFirstLine" src="assets/clef.png">
+        <div class="notes_array" [ngStyle]='{"left": isFirstLine === true? "150px" : "20px"}' >
+            <note-symbol [note]=note.note *ngFor="let note of notes" ></note-symbol>
         </div>
         <div class="note_row">
             <div class="note_line">

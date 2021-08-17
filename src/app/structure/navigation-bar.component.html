@@ -1,0 +1,20 @@
+<div>
+    <ul class='flex'>
+        <li [routerLink] ="['/welcome']"
+            class="router-link" 
+            [routerLinkActive]="['rtlink-is-active']">
+            Welcome
+        </li>
+        <li [routerLink] ="['/noteLists']" 
+            class="router-link" 
+            [routerLinkActive]="['rtlink-is-active']">
+            Notes List
+        </li>
+        <li *ngIf='isOnSheet' class="router-link rtlink-is-active">
+            Note sheet
+        </li>
+    </ul>
+    <div>
+        You currently have {{numberOfNotelists}} notelists available
+    </div>
+</div>

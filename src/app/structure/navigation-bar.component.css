@@ -1,0 +1,21 @@
+.router-link {
+    font-weight: 700; 
+    color: blue;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.router-link:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.rtlink-is-active {
+    font-weight: 1000; 
+    color: orange;
+}
+
+.flex {
+    display: flex;
+    padding: 0;
+}
