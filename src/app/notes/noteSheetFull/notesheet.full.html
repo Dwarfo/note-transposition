@@ -1,6 +1,6 @@
+<button (click)="transpBbToEb()" >Bb -> Eb</button>
 <notes-sheet *ngFor="let nodeList of noteListArray; let i = index" 
     [Notes_in_line]=nodeList 
     [IsFirstLine]="i===0"
     [ngClass]="{'line_offset': i!==0}"
-
 ></notes-sheet>

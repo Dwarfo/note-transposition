@@ -39,11 +39,9 @@
 
 .notes_array{
     position: absolute;
-    width: 100%;
 }
 
 :host{
-    min-width: 1200px;
     display: block;
 }
 

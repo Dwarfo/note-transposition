@@ -380,11 +380,27 @@ const notes : INoteList[] = [
         name: '3sept',
         notes: [
             {
-                note: 7,
+                note: 15,
                 order: 0
             },
             {
-                note: 6,
+                note: 14,
+                order: 1
+            },
+            {
+                note: 14,
+                order: 2
+            },
+            {
+                note: 15,
+                order: 2
+            },
+            {
+                note: 16,
+                order: 0
+            },
+            {
+                note: 17,
                 order: 1
             },
             {
@@ -396,19 +412,23 @@ const notes : INoteList[] = [
                 order: 2
             },
             {
-                note: 7,
-                order: 0
-            },
-            {
-                note: 6,
-                order: 1
-            },
-            {
-                note: 4,
+                note: 0,
                 order: 2
             },
             {
-                note: 5,
+                note: 1,
+                order: 2
+            },
+            {
+                note: 2,
+                order: 2
+            },
+            {
+                note: 3,
+                order: 2
+            },
+            {
+                note: 4,
                 order: 2
             }
         ]
